@@ -1,0 +1,18 @@
+.edit{
+    padding: 10px;
+    border: none;
+    
+
+}
+.edit:hover{
+    background: orange;
+}
+
+.del{
+    padding: 10px;
+    border: none;
+
+}
+.del:hover{
+    background: rgb(211, 13, 13) ;
+}

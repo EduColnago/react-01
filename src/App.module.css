@@ -1,0 +1,43 @@
+.App {
+   
+    text-align : center;
+    list-style: none;   
+    width: 40%; 
+    margin: 200px auto;
+}
+
+.titulo{
+    background-color: rgb(20, 80, 209);
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+}
+ul{
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+   
+    
+}
+li{
+   
+    background-color: #cececc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li:nth-child(even){
+    background-color:#fafafafa;
+}
+li:last-child{
+   justify-content: center;
+}
+
+
+.ative{
+    display: flex;
+    flex-direction: column;
+}
+
+.inative{
+    display: none;
+}
